@@ -1,21 +1,16 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import MyComponent from '../src/index.js'
+import {Button, Box} from '../src/index.js'
 
-const ParentWrapper = () => {
+const App = () => {
   return (
-    <div
-      style={{
-        display: 'flex',
-        justifyContent: 'center',
-        width: '100%',
-        height: '100vh',
-        alignItems: 'center'
-      }}
-    >
-      <MyComponent />
+    <div>
+      <Button>Standard</Button>
+      <Button action>Standard</Button>
+
+      <Box>Standard</Box>
     </div>
   )
 }
 
-ReactDOM.render(<ParentWrapper />, document.getElementById('root'))
+ReactDOM.render(<App />, document.getElementById('root'))

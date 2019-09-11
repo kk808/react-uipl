@@ -1,7 +1,7 @@
 {
   "name": "react-uipl",
-  "version": "0.0.1",
-  "description": "my react components",
+  "version": "0.0.3",
+  "description": "react components",
   "main": "build/index.js",
   "scripts": {
     "start": "webpack --env publish --mode production --watch",
@@ -12,12 +12,15 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kk808/react-component-publish"
+    "url": "https://github.com/kk808/react-uipl"
   },
   "peerDependencies": {
-    "react": "^16.8.6",
+    "react": "^16.8.6"
   },
-  "dependencies": {},
+  "dependencies": {
+    "styled-bootstrap-components": "^4.0.0-alpha.0",
+    "styled-components": "^4.3.2"
+  },
   "devDependencies": {
     "@babel/core": "^7.4.5",
     "@babel/preset-env": "^7.4.5",
